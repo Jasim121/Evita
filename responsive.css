@@ -1,0 +1,124 @@
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .sform form {
+    margin-left: 5rem;
+  }
+  .inner {
+    padding: 0 5rem;
+  }
+  .inner h1 {
+    font-size: 1.6rem;
+  }
+  .inner h5 {
+    font-size: 1rem;
+  }
+  .inner form {
+    width: 31.6rem;
+  }
+  .inner {
+    padding: 0 0;
+  }
+  .fresh h2 {
+    padding: 1.5rem 0;
+  }
+  .Premium h2 {
+    padding: 10rem 1rem;
+  }
+  .fresh {
+    padding: 2rem 0;
+  }
+  .lightbox {
+    padding-top: 1rem;
+  }
+  .footer p {
+    font-size: 1rem;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery img {
+    width: 98%;
+    padding: 0;
+  }
+  .video iframe {
+    width: 90%;
+    height: 15rem;
+  }
+  button {
+    font-size: 0.7rem;
+  }
+  .Prominent {
+    padding: 0;
+  }
+  .modal-content {
+    width: 80%;
+  }
+  .lowericon {
+    display: none;
+  }
+  .modal-content h4 {
+    font-size: 1rem;
+    margin-top: -0.5rem;
+  }
+  .lowericonm {
+    width: 80% !important;
+    top: 96%;
+    left: 61%;
+    overflow-x: hidden !important;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+  }
+  .lowericonm i {
+    font-size: 1rem;
+    background-color: #bd8200;
+    color: #fff;
+    padding: 1rem 2.6rem;
+    border-radius: 0%;
+    cursor: pointer;
+  }
+  .banner {
+    padding: 2rem 1rem;
+  }
+  .fresh {
+    padding: 0rem 2rem;
+  }
+  .Premium {
+    padding: 0rem 2rem;
+    text-align: center;
+  }
+  .Prominent {
+    padding: 2rem 2rem;
+  }
+  .pi {
+    background-size: 20% 10%;
+  }
+  .sform form {
+    width: 10%;
+  }
+  .small {
+    width: 20rem !important;
+  }
+  .Schedule .sform form {
+    width: 23.5rem;
+  }
+  .Schedule .sform form button {
+    margin-left: 0rem;
+  }
+  .tab-button {
+    font-size: 0.6rem;
+  }
+  .lowericonm {
+    width: 40%;
+    margin-left: -20rem;
+  }
+  .gallery img {
+    max-width: 100%;
+  }
+  .Schedule p {
+    padding: 0 2rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */

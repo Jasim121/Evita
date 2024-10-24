@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="lowericon lowericonm">
+      <i class="fa-solid fa-phone" ></i>
+      <a href="https://api.whatsapp.com/">
+      <i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.google.com/maps">
+      <i class="fa-solid fa-car"></i>
+    </a>
+      <i class="fa-regular fa-envelope" id="openModal"></i>
+    </div>
+<!-- modal -->
+ 
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h4 style="text-align: center;">Schedule Site Visit: <span style="color: aquamarine;">Hi Living Evita</span></h4>
+        <h5 style="color: black; font-size: 1rem; text-align: center;"><i class="fa-solid fa-map-location-dot"></i> Madhavaram, Chennai</h5>
+        <img style="width:50px ; height: 50px;" src="images/10014.png" alt="">
+        <form id="loginForm">
+            <input type="text" id="username" name="username" placeholder="Name*" required>
+            <input type="text" id="phone" name="phone" placeholder="Phone No*" required>
+            <input type="text" id="email" name="email" placeholder="Email*" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+    <!-- top head -->
+     <div class="container-fluid">
+        <div class="uperheader">
+          <div class="infs">
+            <p>+91 75500 46736</p>
+          <p>Book Now >></p>
+          </div>
+        </div>
+     </div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.jpg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Amenities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plans</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner area  -->
+   <div class="container-fluid">
+    <div class="banner">
+        <div class="inner">
+            <h1>Welcome to Evita</h1>
+            <h5>A New Home. A Brand New Lifestyle, Spanish Way!</h5>
+            <!-- form  -->
+            <form class="mt-5">
+                <div class="row">
+                  <div class="input-group input-group-icon">
+                    <input type="text" placeholder="Full Name"/>
+                    
+                  </div>
+
+                  <div class="input-group input-group-icon">
+                    <input type="email" placeholder="Mobile No"/>
+                  </div>
+
+                  <div class="input-group input-group-icon">
+                    <input type="email" placeholder="Email Adress"/>
+                  </div>
+
+                  <div class="input-group input-group-icon">
+                    <textarea name="" id="" placeholder="Write your message if any"></textarea>
+                  </div>
+                </div>
+                <button> Schedule Visit Now</button>
+              </form>
+        </div>
+    </div>
+   </div>
+
+   <!-- fresh area  -->
+    <div class="container fresh">
+      <div class="row">
+        <div class="col-md-6">
+            <img src="images/10004.webp" alt="" srcset="">
+        </div>
+        <div class="col-md-6 freshcon">
+            <h2>Welcome to the fresh New World of Contemporary Lifestyle!</h2>
+            <p>“Evita” Meaning Breathe – an all-new, refreshing way of living. This one-of-a-kind community offers 2 and 3 bedroom luxury homes that are set amidst lush green surroundings, providing a serene environment that’s perfect for unwinding after a long day.</p>
+            <p>When you choose to make Evita your home, you’re not just choosing an address – you’re choosing an exceptional lifestyle. Wake up every morning to a vibrant community featuring world-class amenities.</p>
+            <p>Evita is designed to create a benchmark in Lifestyle Homes with its state-of-the-art designs where style meets comfort. Each space has been carefully crafted to provide maximum natural light while maintaining priva</p>
+            <p>Experience unparalleled comfort and convenience at Evita</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Premium  -->
+     <div class="Premium">
+        <div class="overlay"></div>
+        <h2>
+            The Most Premium Spanish Style Apartments!</h2>
+     </div>
+
+     <!-- Prominent  -->
+      <div class="container-fluid pi">
+        <div class="container Prominent ">
+          <div class="row">
+           <div class="col-md-6">
+               <h2>Prominent Location.<br>
+                   Refreshingly Convenient.</h2>
+                   <p>
+                       Madhavaram is one of the most prominent residential areas, it has seen rapid growth in recent years, thanks to its strategic location and excellent connectivity and it is also home to many educational institutions, including schools and colleges that offer quality education.
+                   </p>
+           </div>
+           <div class="col-md-6 map">
+               <img src="images/10007.jpg" alt="">
+           </div>
+          </div>
+     </div>
+      </div>
+      
+   
+       <!-- Premium 2  -->
+     <div class="Premium">
+        <div class="overlay"></div>
+        <h2>        
+    The Contemporary Life. Spanish Way!</h2>
+     </div>
+
+     <!-- Meaningful area  -->
+    <div class="container fresh">
+        <div class="row">
+          <div class="col-md-6">
+              <img class="mt-5" src="images/10046.jpg" alt="" srcset="">
+          </div>
+          <div class="col-md-6 freshcon">
+              <h2>Meaningful &<br>
+                Practical Amenities!</h2>
+              <p>At Evita, we’re passionate about providing our residents with more than just a place to live. We understand that lifestyle matters and that’s why we offer a wide range of practical and meaningful amenities.</p>
+              <p>The community is designed to cater to the needs of residents of all ages. For young families, there’s a children’s play area where kids can enjoy themselves in a safe environment. For fitness enthusiasts, we have a fully equipped gym that will help you stay fit and healthy.</p>
+              <p>Moreover, for those special events or family gatherings – our banquet hall facility will come in handy! Whether it’s big birthday parties or weddings – this facility has got you covered!</p>
+              <p>Evita’s clubhouse also offers guest bedrooms, which comes in handy for your guests who are looking for an extended stay while visiting the city!</p>
+              <p style="font-weight: bold;">The delights are countless at Evita, keep breathing the freshness!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- lightbox -->
+     
+      
+      <section class="lightbox mt-5">
+        <section class="p-0 container">
+          <div class="row d-flex"> 
+            <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/banquet_hall.jpg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/banquet_hall.jpg">
+              </div>  
+            </div>
+                  <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/gym.jpeg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/gym.jpeg">
+              </div>  
+            </div>
+                  <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/sauna.jpg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/sauna.jpg">
+              </div>  
+            </div>
+                  <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/mini_theatre.jpg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/mini_theatre.jpg">
+              </div>  
+            </div>
+                        <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/indoor_games_1.jpeg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/indoor_games_1.jpeg">
+              </div>  
+            </div>
+                        <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/club_lounge.jpg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/club_lounge.jpg">
+              </div>  
+            </div>
+
+            <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/guest_rooms.jpg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/guest_rooms.jpg">
+              </div>  
+            </div>
+
+            <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/rooftop_yoga.jpg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/rooftop_yoga.jpg">
+              </div>  
+            </div>
+
+            <div class=" col-12 col-md-4 p-3">
+              <div class="lightbox_img_wrap">
+                <img class="lightbox-enabled" src="https://evitahomes.in/wp-content/uploads/2023/05/indoor_games_2.jpg" 
+      data-imgsrc="https://evitahomes.in/wp-content/uploads/2023/05/indoor_games_2.jpg">
+              </div>  
+            </div>
+         </div>  
+        </section>
+      </section>
+        <section class="lightbox-container">
+      
+
+      <span id="close" class="close material-icons material-symbols-outlined">
+      close
+      </span>
+        <div class="lightbox-image-wrapper">
+        <img alt="lightboximage" class="lightbox-image">
+           
+          
+        </div>
+      </section>
+
+       <!-- Premium  -->
+     <div class="Premium">
+      <div class="overlay"></div>
+      <h2>  
+Welcome to Your New Home!</h2>
+   </div>
+      
+  
+      
+
+   
+   <!-- tabs2 -->
+     
+     <div class="container mt-5">
+        <div class="tab-container">
+            <div class="tabs">
+                <button class="tab-button active" onclick="openTab(event, 'Tab1')">Tower Plan</button>
+                <button class="tab-button" onclick="openTab(event, 'Tab2')">Typical 2BHK</button>
+                <button class="tab-button" onclick="openTab(event, 'Tab3')">Typical 3BHK</button>
+            </div>
+        
+            <div id="Tab1" class="tab-content active">
+                <div class="gallery">
+                    <img src="https://plus.unsplash.com/premium_photo-1684445034763-013f0525c40c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="openPopup(this.src, 0, 'nature')" alt="Nature 1">
+                    <img src="https://images.unsplash.com/photo-1586421483226-7f5e25967f82?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="openPopup(this.src, 1, 'nature')" alt="Nature 2">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="openPopup(this.src, 2, 'nature')" alt="Nature 3">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="openPopup(this.src, 2, 'nature')" alt="Nature 3">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="openPopup(this.src, 2, 'nature')" alt="Nature 3">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="openPopup(this.src, 2, 'nature')" alt="Nature 3">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="openPopup(this.src, 2, 'nature')" alt="Nature 3">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="openPopup(this.src, 2, 'nature')" alt="Nature 3">
+                </div>
+            </div>
+        
+            <div id="Tab2" class="tab-content">
+                <div class="gallery">
+                    <img src="https://plus.unsplash.com/premium_photo-1684445034763-013f0525c40c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,1" onclick="openPopup(this.src, 1, 'nature')" alt="Nature 1">
+                    <img src="https://images.unsplash.com/photo-1586421483226-7f5e25967f82?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,2" onclick="openPopup(this.src, 2, 'nature')" alt="Nature 2">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,3" onclick="openPopup(this.src, 3, 'nature')" alt="Nature 3">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,4" onclick="openPopup(this.src, 4, 'nature')" alt="Nature 4">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,5" onclick="openPopup(this.src, 5, 'nature')" alt="Nature 5">
+                </div>
+            </div>
+        
+            <div id="Tab3" class="tab-content">
+                <div class="gallery">
+                    <img src="https://plus.unsplash.com/premium_photo-1684445034763-013f0525c40c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,1" onclick="openPopup(this.src, 1, 'nature')" alt="Nature 1">
+                    <img src="https://images.unsplash.com/photo-1586421483226-7f5e25967f82?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,2" onclick="openPopup(this.src, 2, 'nature')" alt="Nature 2">
+                    <img src="https://images.unsplash.com/photo-1722353129214-df9638aab876?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D,3" onclick="openPopup(this.src, 3, 'nature')" alt="Nature 3">
+                </div>
+            </div>
+        </div>
+        
+        <div id="popup" class="popup" onclick="closePopup()">
+            <span class="close">&times;</span>
+            <img class="popup-content" id="popup-img">
+            <div class="popup-controls">
+                <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                <button class="next" onclick="changeImage(1)">&#10095;</button>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- video section  -->
+      <div class="container text-center video">
+        <h2>Walkthrough</h2>
+        <iframe class="mt-3" width="100%" height="600px" src="https://www.youtube.com/embed/DW_3ci3H06Q?si=cmV8i61KukUcKlVV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <!-- Schedule  -->
+       <section class="Schedule ">
+         <h2>Schedule A Site Visit</h2>
+         <p>Please provide your details below and we will get in touch with you to schedule a personalised site visit.
+         </p>
+        
+         <div class="schedulForm">
+          <div class="sform">
+            <form class="mt-3">
+              <div class="row">
+                <div class="input-group input-group-icon">
+                  <input type="text" placeholder="Full Name"/>
+                  
+                </div>
+  
+                <div class="input-group input-group-icon">
+                  <input type="email" placeholder="Mobile No"/>
+                </div>
+  
+                <div class="input-group input-group-icon">
+                  <input type="email" placeholder="Email Adress"/>
+                </div>
+  
+                <div class="input-group input-group-icon">
+                  <textarea name="" id="" placeholder="Write your message if any"></textarea>
+                </div>
+              </div>
+              <button> Schedule Visit Now</button>
+            </form>
+          </div>
+              <p class="mt-3">Site Address: 1A, VICTORY FIELD ROAD, Thapalpatti, MADHAVARAM, CHENNAI 60
+              </p>
+              <p>RERA# TN/29/Building/0298/2023  | available @ www.rera.tn.gov.in
+              </p>
+              <div class="small">
+                <span>DISCLAIMER Please note that all the statements, pictures, Illustrations, models, drawings, etc., are for demonstration purposes only and may differ from the actual construction. The Builder or Architect reseNes the right to modify any information, plans, or specifications In the brochure or other promotional materials. The floor areas and measurements supplied are estimations and shall be subject to final verification. The Builder is not liable for any representation made by Agents or Consultants in respect of any feature or specification of the building complex. All parties will be bound by the duly executed Sale and Construction Agreement
+                </span>
+              </div>
+         </div>
+       </section>
+
+
+<!-- footer  -->
+ <div class="footer">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+        <p>
+          © Copyright 2023 | Evita Homes by Hiliving Royal</p>
+      </div>
+      <div class="col-md-6 innerfoot">
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+      </div>
+    </div>
+    </div>
+  </div>
+ </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="custom.js"></script>
+  </body>
+</html>
